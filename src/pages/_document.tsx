@@ -1,12 +1,8 @@
-import {
-  ColorModeScript,
-} from '@chakra-ui/color-mode'
+import { ColorModeScript } from '@chakra-ui/color-mode'
 import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document'
-import {
-  theme,
-} from '@/clean/presentation/styles/index'
+import { theme } from '@modules/presentation/styles/index'
 
 export default class MyDocument extends Document {
   render() {
